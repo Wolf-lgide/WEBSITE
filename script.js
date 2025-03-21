@@ -23,7 +23,7 @@ async function submitApplication() {
       };
 
   
-      const response = await fetch("http://62.171.157.153:2053/send-webhook", {
+      const response = await fetch("https://wolf-lgide.github.io/WEBSITE/send-webhook", {
           method: "POST",
           headers: { "Content-Type": "application/json" },
           body: JSON.stringify({ embed, ip: userIP }), 
