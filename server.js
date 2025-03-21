@@ -70,4 +70,4 @@ ${embed.fields[8].value}
   }
 });
 
-app.listen(PORT, () => console.log(`✅ Server running on http://62.171.157.153:${PORT}/`));
+app.listen(PORT, () => console.log(`✅ Server running on https://wolf-lgide.github.io/WEBSITE:${PORT}/`));
